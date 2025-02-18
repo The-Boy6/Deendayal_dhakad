@@ -85,8 +85,8 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/i_popcorn_movie_updat
 # Link Shortener Configuration
 # ============================
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shortxlinks.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'f71e79189c558eb6dd0b3681899153dc41f85c52')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'indiaearnx.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '1668d61f2d5276b4fd2a997535e1bdbfd819cf6e')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/i_popcorn_movie_update/31')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
