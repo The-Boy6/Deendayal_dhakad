@@ -79,7 +79,7 @@ CAPTION_LANGUAGES = ["Bhojpuri", "Hindi", "Bengali", "Tamil", "English", "Bangla
 VERIFY = bool(environ.get('VERIFY', False))  # Verification On (True) / Off (False)
 DEENDAYAL_VERIFY_EXPIRE = int(environ.get('DEENDAYAL_VERIFY_EXPIRE', 3))  # Add time in hours
 DEENDAYAL_VERIFIED_LOG = int(environ.get('DEENDAYAL_VERIFIED_LOG', '-1002213256087'))  # Log channel id (make sure bot is admin)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/i_popcorn_movie_update/31')  # How to open tutorial link for verification
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/i_PapkornXBot/31')  # How to open tutorial link for verification
 
 # ============================
 # Link Shortener Configuration
@@ -87,14 +87,14 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/i_popcorn_movie_updat
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'indiaearnx.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '1668d61f2d5276b4fd2a997535e1bdbfd819cf6e')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/i_popcorn_movie_update/31')  # Tutorial video link for opening shortlink website
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/i_PapkornXBot/31')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
 # ============================
 # Channel & Group Links Configuration
 # ============================
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/New_Movies_Bots')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/i_popcorn_movie_update')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/i_PapkornXBot')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Royal_X_RoxStar')
 DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://whatsapp.com/channel/0029VasPqXXC1Fu2rGjxba1g')
 OWNERID = int(os.environ.get('OWNERID', '6045160821'))  # Replace with the actual admin ID
