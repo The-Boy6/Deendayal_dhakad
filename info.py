@@ -85,8 +85,8 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/i_PapkornXBot/31')  #
 # Link Shortener Configuration
 # ============================
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'indiaearnx.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '1668d61f2d5276b4fd2a997535e1bdbfd819cf6e')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'softurl.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '32ca9882210b1fbe3e2382848f1cabbf904bd2e4')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/i_PapkornXBot/31')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
